@@ -8,6 +8,52 @@
     <link rel="stylesheet" href="./Styles.css">
 </head>
 <body>
-    
+    <header>
+        <a href="./index.html">
+            <img src="" alt="LogoPagina">
+        </a>
+        <input type="text" name="nomb_de_rec" placeholder="¿De que tenes hambre?">
+        <img src="" alt="ImgUsu">
+         <span>Usuario</span>
+    </header>   
+    <Nav>
+        <ul>
+            <li><a href="#destacados">Destacado</a></li>
+            <li><a href="#platossug">Platos sugeridos</a></li>
+            <li><a href="#catalogo">Catalogo</a></li>
+            <li><a href="./cargrecta.html">Carga tu receta</a></li>
+            <li><a href="#sobnost">Sobre Nosotros</a></li>
+        </ul>
+    </Nav>
+    <section>
+        <h2>Contanos de tu recerta</h2>
+        <form action="cargaderect" method="get">
+            <input type="text" name="nombre" placeholder="Tu nombre completo">
+            <input type="email" name="correo electronico" placeholder="Correo electronico">
+            <br>
+            <input type="text" name="nombre_receta" placeholder="Nombre de la receta">
+            <br>
+            <textarea name="Descripccion" id="Descripccion" cols="40" rows="10">Descripcion corta de tu receta</textarea>
+            <br>
+            <textarea name="pap" id="pasoapaso" cols="40" rows="10">Paso a paso de tu receta</textarea>
+            <br>
+            <label for="Agrega tus imagenes">Adjunta tus imagenes</label>
+                <input type="file">
+            <br>
+            <button type="submit">Enviar</button>
+            <br>
+        </form>
+    </section>
+    <footer id="sobnost">
+        <div>
+            <p>Sobre Nosotros</p>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt id at eos earum architecto eius, autem facere unde aut velit asperiores suscipit voluptas beatae nemo quod odio aliquam quis.
+            </span>
+        </div>
+        <div>
+            <p>Copyright © Tomas Pozo Isaurralde</p>
+        </div>
+    </footer>
 </body>
 </html>
