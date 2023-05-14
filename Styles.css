@@ -1,0 +1,59 @@
+*{
+}
+body{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav-list{
+ list-style-type: none;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+.nav-item{
+    display: inline;
+}
+#destacados{
+    text-align: center;
+    border: 1px solid black;
+}
+#platossug{
+    border: 1px solid black;
+    text-align: center;
+}
+.targ-sugh{
+    border: 1px solid black;
+    width: 30%;
+    display:inline-block;
+    max-height: 550px;
+    overflow-x: hidden;
+}
+.cuadrado{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.rectangulo{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+table tr td{
+    border: 1px solid black;
+
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+#destacados{
+    display: inline-block;
+    width: 100%;
+}
