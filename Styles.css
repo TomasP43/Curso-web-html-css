@@ -66,12 +66,16 @@ body {
     margin: 20px 0px 20px 0px;
 }
 
+#destacados .rectangulo:hover{
+    scale: 110%;
+}
+
 .card {
-    border: 1px solid lightsalmon;
-    border-radius: 60px;
-    width: 120px;
-    height: 120px;
-    background-color: lightsalmon;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:lightsalmon;
     position: relative;
 }
 
@@ -83,6 +87,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.card:hover{
+    scale: 107%;
+    cursor: pointer;
+}
 .rectangulo {
     width: 400px;
     height: 250px;
@@ -98,18 +106,32 @@ body {
 }
 
 .toprec {
-    width: 200px;
+    width: 190px;
     margin: 5px;
+    height: 267px;
 }
 
 .toprec p {
     text-align: center;
 }
 
+#contenedor{
+    background-color: white;
+}
+
 .img-cuadrad-s {
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     overflow: hidden;
+}
+
+.toprec .cal{
+    width: 20px;
+}
+
+.horz{
+    display: flex;
+    justify-content: center;
 }
 
 table tr td {
@@ -121,4 +143,34 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
     width: 100%;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color:chocolate;
+    color: #ffffff;
+    text-align: middle;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#sobnost{
+    background-color: chocolate;
 }
