@@ -1,7 +1,8 @@
-body{
+body {
     margin-top: 70Px;
     background-color: antiquewhite;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -16,8 +17,8 @@ header {
     z-index: 2;
     align-items: center;
 }
- 
-.logo{
+
+.logo {
     width: 125Px;
 }
 
@@ -28,60 +29,87 @@ header {
 }
 
 .secciones {
-   display: inline;
+    display: inline;
 }
 
 a {
     text-decoration: none;
     color: aliceblue;
 }
-.separador{
+
+.separador {
     color: aliceblue;
     margin: 5px;
+}
+
+body {
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #destacados {
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: nowrap;
+
 }
-.titulos{
+
+.titulos {
     text-align: center;
     margin-top: 90px;
 }
+
 #platossug {
-    border: 1px solid black;
     display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
 }
 
-
-.targ-sugh {
-    flex-basis: calc(40% - 2px);
-    border: 1px solid black;
-    margin: 20px 40px;
-    background-color: rgb(125, 62, 62);
+.card {
+    border: 1px solid lightsalmon;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    background-color: lightsalmon;
+    position: relative;
 }
 
-.targ-sugh h3 {
-    text-align: center;
-    font-weight: bold;
-}
-.cuadrado {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
-    margin-top: 40px;
+.card img {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .rectangulo {
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     overflow: hidden;
     margin: 0 auto;
     display: inline-block;
+}
 
+#seccion-top-recetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.toprec {
+    width: 200px;
+    margin: 5px;
+}
+
+.toprec p {
+    text-align: center;
+}
+
+.img-cuadrad-s {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
 
 table tr td {
