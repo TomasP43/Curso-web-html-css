@@ -66,7 +66,7 @@ body {
     margin: 20px 0px 20px 0px;
 }
 
-#destacados .rectangulo:hover{
+#destacados .rectangulo:hover {
     scale: 110%;
 }
 
@@ -75,7 +75,7 @@ body {
     border-radius: 50px;
     width: 100px;
     height: 100px;
-    background-color:lightsalmon;
+    background-color: lightsalmon;
     position: relative;
 }
 
@@ -87,10 +87,11 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.card:hover{
+.card:hover {
     scale: 107%;
     cursor: pointer;
 }
+
 .rectangulo {
     width: 400px;
     height: 250px;
@@ -115,7 +116,7 @@ body {
     text-align: center;
 }
 
-#contenedor{
+#contenedor {
     background-color: white;
 }
 
@@ -125,11 +126,11 @@ body {
     overflow: hidden;
 }
 
-.toprec .cal{
+.toprec .cal {
     width: 20px;
 }
 
-.horz{
+.horz {
     display: flex;
     justify-content: center;
 }
@@ -154,12 +155,13 @@ table {
 }
 
 .styled-table thead tr {
-    background-color:chocolate;
+    background-color: chocolate;
     color: #ffffff;
     text-align: middle;
 }
 
-.styled-table th, .styled-table td {
+.styled-table th,
+.styled-table td {
     padding: 12px 15px;
 }
 
@@ -171,27 +173,67 @@ table {
     background-color: #f3f3f3;
 }
 
-#sobnost{
+#sobnost {
     background-color: chocolate;
 }
 
-.col-nomb{
+.col-nomb {
     width: 20%;
 }
-.col-img{
+
+.col-img {
     width: 15%;
 }
-.col-desc{
+
+.col-desc {
     width: 55%;
 }
-.col-dif{
-    width: 10%;    
+
+.col-dif {
+    width: 10%;
 }
 
-.col-nomb-dat{
+.col-nomb-dat {
     font-weight: bold;
 }
 
-.estilo-img-tabla img{
-width: 95%;
+.estilo-img-tabla img {
+    width: 95%;
+}
+
+.img-emp {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+}
+
+.img-emp img {
+    width: 14.285714285714%;
+}
+
+#emp div img {
+    margin-bottom: 10px;
+}
+
+#emp a {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8%;
+}
+
+footer div {
+    width: 50%;
+}
+
+#Copyright {
+    text-align: end;
 }
