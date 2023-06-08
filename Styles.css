@@ -174,3 +174,24 @@ table {
 #sobnost{
     background-color: chocolate;
 }
+
+.col-nomb{
+    width: 20%;
+}
+.col-img{
+    width: 15%;
+}
+.col-desc{
+    width: 55%;
+}
+.col-dif{
+    width: 10%;    
+}
+
+.col-nomb-dat{
+    font-weight: bold;
+}
+
+.estilo-img-tabla img{
+width: 95%;
+}
