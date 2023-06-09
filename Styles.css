@@ -1,3 +1,6 @@
+*{
+    font-family: 'Voces', cursive;
+}
 body {
     margin-top: 70Px;
     background-color: antiquewhite;
@@ -236,4 +239,63 @@ footer div {
 
 #Copyright {
     text-align: end;
+}
+
+.datos-personal{
+    width: 49.20%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#nom-rec {
+    width: 99.5%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(51, 38, 38);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background-color: #332c26
+}
+
+.button:active {
+    background-color: #332c26;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#Descripccion {
+    width: 99.5%;
+    resize:none;
+    border-radius: 10px;
+    height: 130px;
+}
+#pasoapaso{
+    width: 99.5%;
+    resize:none;
+    border-radius: 10px;
+    height: 230px;
+}
+
+form button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }

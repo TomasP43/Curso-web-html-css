@@ -11,6 +11,9 @@
         content="Recetas de comida, Cocina casera, Comida saludable, Recetas fáciles, Recetas rápidas, Recetas vegetarianas, Recetas veganas, Recetas sin gluten, Recetas para niños, Recetas para ocasiones especiales, Platos principales, Aperitivos, Postres, Recetas de temporada, Recetas internacionales, Recetas mexicanas, Recetas italianas, Recetas asiáticas, Recetas mediterráneas, Recetas de ensaladas, Recetas de sopas, Recetas de batidos y smoothies, Recetas de cocina rápida, Recetas de cocina al horno, Recetas de cocina al aire libre, Recetas de desayuno, Recetas de almuerzo, Recetas de cena">
     <meta name="author" content="Pozo Isaurralde Tomas">
     <link rel="stylesheet" href="./Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Voces&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,12 +35,12 @@
         </nav>
     </header>
     <section>
-        <h2>Contanos de tu recerta</h2>
+        <h2 class="titulos">Contanos de tu recerta</h2>
         <form action="cargaderect" method="get">
-            <input type="text" name="nombre" placeholder="Tu nombre completo">
-            <input type="email" name="correo electronico" placeholder="Correo electronico">
+            <input class="datos-personal" type="text" name="nombre" placeholder="Tu nombre completo">
+            <input class="datos-personal" type="email" name="correo electronico" placeholder="Correo electronico">
             <br>
-            <input type="text" name="nombre_receta" placeholder="Nombre de la receta">
+            <input type="text" id="nom-rec" name="nombre_receta" placeholder="Nombre de la receta">
             <br>
             <textarea name="Descripccion" id="Descripccion" cols="40"
                 rows="10">Descripcion corta de tu receta</textarea>
@@ -47,7 +50,7 @@
             <label for="Agrega tus imagenes">Adjunta tus imagenes</label>
             <input type="file">
             <br>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="button">Enviar</button>
             <br>
         </form>
     </section>
